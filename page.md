@@ -1,5 +1,8 @@
- If you want a landing page that documents the project work flow and project explanation 
-use this code
+<p> If you want a landing page that has documented the projects work flow and has project explanation 
+ copy the code below and paste it in templates/page.html then render it in @app.route("/") 
+ return render_template (page.html) </p>
+
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -278,3 +281,4 @@ pip install flask flask-restful flask-sqlalchemy</code></pre>
     </script>
 </body>
 </html>
+```
